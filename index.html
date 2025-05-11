@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IIIT Sonepat Library</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <style>
+    .typewriter {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #0ea5e9;
+      text-shadow: 1px 1px 4px #000;
+      border-right: 2px solid #0ea5e9;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 4s steps(35, end) forwards, blink 0.8s infinite;
+      margin: 3rem auto;
+      text-align: center;
+      max-width: 100%;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">📚 IIIT Sonepat Library</div>
+      <nav class="nav" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="#portfolio">Services</a>
+        <a href="books.html">Books</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="mobile-toggle" onclick="toggleNav()">☰</div>
+    </div>
+  </header>
+
+  <div class="typewriter">Hello Saksham Jain, a Manager of Library - Warm Greetings!</div>
+
+  <section id="portfolio" class="books-section animate-on-scroll">
+    <div class="container">
+      <h2>Our Library Services</h2>
+      <p>Explore book lending, research materials, digital archives, and personalized reading suggestions.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="books-section animate-on-scroll">
+    <div class="container">
+      <h2>Contact the Library</h2>
+      <p>Library Manager: Saksham Jain</p>
+      <p>Email: <a href="mailto:sakshamjain@gmail.com">sakshamjain@gmail.com</a></p>
+      <p>Phone: <a href="tel:+917818892788">+91 78188 92788</a></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 IIIT Sonepat Library. Managed by Saksham Jain.</p>
+  </footer>
+</body>
+</html>
